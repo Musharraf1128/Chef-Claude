@@ -1,5 +1,4 @@
 import ChefClaudeLogo from '../images/chef-claude-logo.png'
-// import '../index.css'
 
 export default function Header() {
     return (
