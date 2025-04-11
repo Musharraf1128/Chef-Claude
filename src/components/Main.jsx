@@ -5,7 +5,7 @@ import { getRecipeFromMistral } from '../ai'
 
 export default function App() {
 
-    const [ingredients, setIngredients] = useState([])
+    const [ingredients, setIngredients] = useState(["all kind of spices", "tomato", "onoin", "eggs", "olive oil"])
     const [recipe, setRecipe] = useState("")
 
     async function getRecipe() {
